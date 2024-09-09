@@ -21,22 +21,23 @@ class FizzBuzz {
 
         // Print our appropriate result.
         if (divisibleBy3 && divisibleBy5) { // add curly brackets at the end of any if/for/while
-            i += 1;
+
             System.out.println("Fizz Buzz"); // you usually shouldn't print stuff out
 
         } else if (divisibleBy3) {
-            i += 1;
+
             System.out.println("Fizz");
 
         } else if (divisibleBy5) {
-            i += 1;
+
             System.out.println("Buzz");
 
         } else {
-            i += 1;
+
             System.out.println(i);
 
         }
+        i++;
         return i;
     }
 }
